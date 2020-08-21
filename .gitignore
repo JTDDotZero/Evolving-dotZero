@@ -1,0 +1,7 @@
+*~
+*.tmp
+.DS_Store
+404.html
+prototype-bare-bones.html
+prototype.html
+prototype-with-comments
