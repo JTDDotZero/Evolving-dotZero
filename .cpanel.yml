@@ -1,0 +1,9 @@
+--- #signifies begining of .yml file
+deployment: #signifies deployment key
+  tasks: #signifies task key
+    - export DEPLOYPATH=/home/mpdnkoqmlh4z/public_html/ #'mpd...'is user name with GoDaddy. Also, this is first BASH command, whatever that is
+    - /bin/cp index.html $DEPLOYPATH # a BASH command
+    #thus far, this file deploys index.html only. To deploy more files and other changes vie CPanel, need to
+    #directly instruct with further BASH commands in the list. Looked into an instruction
+    #to update entire directory, but this seems tricky. May be better to find a way to
+    #uplad directory changes from outside of CPanel's version control ...
