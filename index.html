@@ -1,19 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs" id="dotzero-live"><!--id has been customised-->
-<head>
-  <title>About JoinTheDOTS &middot; JoinTheDOTS DemocracyOnTheStreets</title><!--TITLE
-     has been customised-->
-    <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-
-  fit=no" /><!--This 'viewport' meta element instructs mobile browsers to
-    display in friendly way-->
-<meta name="description" content="Join The DOTS: DemocracyOnTheStreets is a
-global, chalk-based 'wellbeing' movement advocating strategic
-chalking as a means for achieving democratic voice and agency. Operating at the
-intersection of human rights, activism, street art, community development,
-mental health, graffiti, wellbeing, creativty and crisis JTD seeks to reimagine
-the potential of chalk in a twenty-first century context." />
-</head>
-<body>
-</body>
+	<head>
+	<meta charset="utf-8" />
+	<title> JoinTheDOTS &middot; DemocracyOnTheStreets</title><!--TITLE
+		 has been customised-->
+		 <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-
+	   fit=no" /><!--This 'viewport' meta element instructs mobile browsers to
+	     display in friendly way-->
+			 <meta name="description" content="Join The DOTS: DemocracyOnTheStreets. A
+			 global, chalk-based 'wellbeing' movement. Operating at the
+			 intersection of human rights, activism, street art, community development,
+			 mental health, graffiti, wellbeing, creativity and crisis JTD seeks to reimagine
+			 the potential of chalk in a twenty-first century context." />
+		<style type="text/css">
+				* {
+		margin: o;
+		padding: 0;
+		}
+
+		div.a {
+  text-align: position: absolute; left: 50%; top:50%
+}
+		canvas <div style="background-color: #c1f0c1; padding: 20px 20px 20px 20px; overflow: hidden;">Your Text Here</div>
+		</style>
+	</head>
+	<body>
+	<div class="a">
+<p>Welcome to dotZero: groundZero for Join The DOTS: DemocracyOnTheStreets.
+Join the DOTS is a distributed, chalk-based wellbeing movement advocating widespread, strategic
+use of pavement chalk as a means to reclaim space for imagination and democratic interaction.
+Join The DOTS considers all impulses to justice to be connected by a concern for
+the self, or 'enlightened self-interest'. Join The DOTS celebrates neoroscientist Dan Siegel's neologism MWe.
+MWe is a tight concept for communicating an expanded sense of self. It contains, and honours,
+both the individual self (Me) and the social self (We). 'MWe' acknowledges that our connections
+- to others, to nature, to the past and the future - are integral to, and profoundly protective of,
+ our individual self. In acknowledging this interdependence, MWe makes it clear that each individual's
+ personal wellbeing is intimately dependent on the greater wellbeing of the whole. The pursuit of
+ universal justice becomes a matter of enlightened self-interest... MWe're new to coding
+and going to try to build from the ground up. Call it 'slow coding'. There is much more to follow.
+Please keep faith, and check back soon. In the meantime: MWe Need To Chalk.
+If you have thoughts, comments, feedback or questions, MWe would love to
+hear from you. Contact us by:
+
+<nav id="navigation">
+	<ul class="navigation">
+		<!--
+			These two links, to Home and About, use root-relative links. If you need to use
+			relative links, remove the opening slash before `/about/`. The link to `Home`
+			will depend on how you have created the architecture of your site. See Chapter
+			21.
+		-->
+				<li><a href="https://twitter.com/DemOnTheStreets/">Twitter: Metamorphosis</a></li>
+				<li><a href="https://www.youtube.com/channel/UCunUNa5CDwbIAqUcu0gxH2Q/">YouTube: DemocracyOnTheStreets</a></li>
+	</ul>
+</nav>
+
+</p>
+</div>
+		<canvas id="world" width="200" height="200">
+		</canvas>
+
+				<script type="text/javascript">
+			var canvas = document.getElementById('world');
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.arc(canvas.width/2, canvas.height/2, canvas.width/15, 0, 2 * Math.PI, false);
+			ctx.fillStyle = "rgb(0, 0, 0)";
+			ctx.fill();
+		</script>
+	</body>
 </html>
